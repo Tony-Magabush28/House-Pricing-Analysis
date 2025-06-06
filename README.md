@@ -25,9 +25,11 @@ This project uses Python to predict house prices using different regression tech
 
 ## 🖼️ Sample Visualization
 
-Here’s a histogram showing the distribution of house prices:
+Here’s a Sample Visualization of house prices:
 
-![House Price Distribution](images/house_price_distribution.png)
+![House Price Distribution](images/hpd.png)
+![Polynomial Regression](images/pr.png)
+![Simple Linear Regression](images/lr.png)
 
 ---
 
