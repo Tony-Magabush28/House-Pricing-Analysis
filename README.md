@@ -76,5 +76,6 @@ Here are some sample visualizations of house prices:
 ---
 
 ## 🔧 How to Run
-git clone https://github.com/Tony-Magabush28/House-Price-Prediction-and-Analysis
-cd "C:\Users\LENOVO\OneDrive\Documents\JupyterNoterbook"
+
+-git clone https://github.com/Tony-Magabush28/House-Price-Prediction-and-Analysis
+-cd "C:\Users\LENOVO\OneDrive\Documents\JupyterNotebook"
