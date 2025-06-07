@@ -18,7 +18,7 @@ This project uses Python to predict house prices using different regression tech
 ## 📂 Project Files
 
 - `house_price_analysis.ipynb`: The main Jupyter Notebook with code and analysis.
-- `images/house_price_distribution.png`: Sample plot.
+- `images/.png`: Sample plot.
 - `requirements.txt`: (Optional) List of dependencies.
 
 ---
@@ -33,11 +33,11 @@ Here’s a Sample Visualization of house prices:
 
 ---
 
-## 🚀 What I Learned
-
-- Data exploration using statistics and visualization.
-- Building regression models using scikit-learn.
-- Comparing different regression models and evaluating them using the R² score.
+## 🚀 What I Did
+- Explored the data: calculated mean, median, mode, percentiles, and standard deviation.
+- Visualized data distributions using histograms, box plots, and scatter plots.
+- Built models using linear, polynomial, and multiple regression.
+- Evaluated models using R² score.
 
 ---
 
@@ -51,6 +51,5 @@ Here’s a Sample Visualization of house prices:
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/Tony-Magabush28/House_price_analysis
-   cd house_price_analysis
+   git clone https://github.com/Tony-Magabush28/House-Price-Prediction-and-Analysis
 
