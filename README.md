@@ -1,10 +1,10 @@
 ## 👤 Author
 Anthony Sergo
 
-GitHub: Tony-Magabush28
-LinkedIn: www.linkedin.com/in/anthony-sergo1 
-Email: anthonysergo9@gmail.com
-Portfolio: my-flask-portfolio.onrender.com 
+- GitHub: Tony-Magabush28
+- LinkedIn: www.linkedin.com/in/anthony-sergo1 
+- Email: anthonysergo9@gmail.com
+- Portfolio: my-flask-portfolio.onrender.com 
 
 ---
 
