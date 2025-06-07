@@ -63,7 +63,10 @@ Here are some sample visualizations of house prices:
 - 50th Percentile: 4,340,000.00
 - 75th Percentile: 5,740,000.00
 
+---
 
+## 🔧 How to Run
+git clone https://github.com/Tony-Magabush28/House-Price-Prediction-and-Analysis
 
  
 
