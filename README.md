@@ -1,4 +1,4 @@
-# 🏡 House Price Analysis
+# 🏡 House Price Prediction and Analysis
 
 This project uses Python to predict house prices using different regression techniques (linear, polynomial, and multiple regression). It also includes exploratory data analysis (EDA) using measures such as mean, median, mode, percentiles, and standard deviation.
 
