@@ -4,7 +4,7 @@ Anthony Sergo
 - GitHub: https://github.com/Tony-Magabush28
 - LinkedIn: www.linkedin.com/in/anthony-sergo1 
 - Email: anthonysergo9@gmail.com
-- Portfolio: my-flask-portfolio.onrender.com 
+- Portfolio: https://my-flask-portfolio.onrender.com/
 
 ---
 
