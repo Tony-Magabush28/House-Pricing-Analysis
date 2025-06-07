@@ -1,3 +1,13 @@
+## 👤 Author
+Anthony Sergo
+
+GitHub: Tony-Magabush28
+LinkedIn: www.linkedin.com/in/anthony-sergo1 
+Email: anthonysergo9@gmail.com
+Portfolio: my-flask-portfolio.onrender.com 
+
+---
+
 # 🏡 House Price Prediction and Analysis
 
 This project uses Python to predict house prices using various regression techniques, including linear, polynomial, and multiple regression. It also includes exploratory data analysis (EDA), which involves measures such as the mean, median, mode, percentiles, and standard deviation.
