@@ -104,20 +104,20 @@ Libraries:
 ---
 
 ## Means after scaling:
-area        -0.000000000000000156
-bedrooms    -0.000000000000000183
-bathrooms   -0.000000000000000026
-stories     -0.000000000000000130
-parking      0.000000000000000000
+- area        -0.000000000000000156
+- bedrooms    -0.000000000000000183
+- bathrooms   -0.000000000000000026
+- stories     -0.000000000000000130
+- parking      0.000000000000000000
 
 ---
 
 ## Standard deviations after scaling:
-area         1.000919
-bedrooms     1.000919
-bathrooms    1.000919
-stories      1.000919
-parking      1.000919
+- area         1.000919
+- bedrooms     1.000919
+- bathrooms    1.000919
+- stories      1.000919
+- parking      1.000919
 
 ---
 
