@@ -1,10 +1,10 @@
 ## 👤 Author
 Anthony Sergo
 
-- GitHub : https://github.com/Tony-Magabush28
-- LinkedIn : www.linkedin.com/in/anthony-sergo1 
-- Email : anthonysergo9@gmail.com
-- Portfolio : https://my-flask-portfolio.onrender.com/
+- GitHub: https://github.com/Tony-Magabush28
+- LinkedIn: www.linkedin.com/in/anthony-sergo1 
+- Email: anthonysergo9@gmail.com
+- Portfolio: https://my-flask-portfolio.onrender.com/
 
 ---
 
@@ -83,58 +83,75 @@ Libraries:
 
 ---
 
-## 📈 Results
+## 📈 Regression Model Performance
 
-- R² Score (Polynomial Regression, Degree 3): 0.325
-- R² Score (Multiple Regression on Training Set): 0.562
-- R² Score (Multiple Regression on Test Set): 0.546
-- MAE (Test Set): 1127483.35
-- RMSE (Test Set): 1514173.55
+| Metric                                             | Value        |
+| -------------------------------------------------- | ------------ |
+| **R² Score (Polynomial Regression, Degree 3)**     | 0.325        |
+| **R² Score (Multiple Regression on Training Set)** | 0.562        |
+| **R² Score (Multiple Regression on Test Set)**     | 0.546        |
+| **MAE (Mean Absolute Error) on Test Set**          | 1,127,483.35 |
+| **RMSE (Root Mean Squared Error) on Test Set**     | 1,514,173.55 |
 
 ---
 
 ## First 5 Rows of Scaled Features:
-       area  bedrooms  bathrooms   stories   parking
-- 0  1.046726  1.403419   1.421812  1.378217  1.517692
-- 1  1.757010  1.403419   5.405809  2.532024  2.679409
-- 2  2.218232  0.047278   1.421812  0.224410  1.517692
-- 3  1.083624  1.403419   1.421812  0.224410  2.679409
-- 4  1.046726  1.403419  -0.570187  0.224410  1.517692
+
+| Index | area     | bedrooms | bathrooms | stories  | parking  |
+| ----- | -------- | -------- | --------- | -------- | -------- |
+| 0     | 1.046726 | 1.403419 | 1.421812  | 1.378217 | 1.517692 |
+| 1     | 1.757010 | 1.403419 | 5.405809  | 2.532024 | 2.679409 |
+| 2     | 2.218232 | 0.047278 | 1.421812  | 0.224410 | 1.517692 |
+| 3     | 1.083624 | 1.403419 | 1.421812  | 0.224410 | 2.679409 |
+| 4     | 1.046726 | 1.403419 | -0.570187 | 0.224410 | 1.517692 |
+
+
+---
+## 📉 Means After Scaling (Close to Zero)
+
+| Feature   | Mean After Scaling    |
+| --------- | --------------------- |
+| area      | -0.000000000000000156 |
+| bedrooms  | -0.000000000000000183 |
+| bathrooms | -0.000000000000000026 |
+| stories   | -0.000000000000000130 |
+| parking   | 0.000000000000000000  |
+
 
 ---
 
-## Means after scaling:
-- area        -0.000000000000000156
-- bedrooms    -0.000000000000000183
-- bathrooms   -0.000000000000000026
-- stories     -0.000000000000000130
-- parking      0.000000000000000000
+## 📊 Standard Deviations After Scaling
 
----
-
-## Standard deviations after scaling:
-- area         1.000919
-- bedrooms     1.000919
-- bathrooms    1.000919
-- stories      1.000919
-- parking      1.000919
+| Feature   | Std Dev After Scaling |
+| --------- | --------------------- |
+| area      | 1.000919              |
+| bedrooms  | 1.000919              |
+| bathrooms | 1.000919              |
+| stories   | 1.000919              |
+| parking   | 1.000919              |
 
 ---
 
 ## 📝 Price Statistics:
 
-- Mean price: 4766729.25
-- Median price: 4340000.00
-- Mode price: 3500000
-- Standard Deviation of price: 1870439.62
+| Statistic              | Value        |
+| ---------------------- | ------------ |
+| **Mean Price**         | 4,766,729.25 |
+| **Median Price**       | 4,340,000.00 |
+| **Mode Price**         | 3,500,000    |
+| **Standard Deviation** | 1,870,439.62 |
+
 
 ---
 
 ## 📝 Price Percentiles:
-- 25th Percentile: 3430000.00
-- 50th Percentile (Median): 4340000.00
-- 75th Percentile: 5740000.00
-- 90th Percentile: 7350000.00
+
+| Percentile    | House Price  |
+| ------------- | ------------ |
+| 25th          | 3,430,000.00 |
+| 50th (Median) | 4,340,000.00 |
+| 75th          | 5,740,000.00 |
+| 90th          | 7,350,000.00 |
 
 
 ---
