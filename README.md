@@ -1,5 +1,5 @@
 ## 👤 Author
-- Anthony Sergo
+Anthony Sergo
 
 - GitHub: https://github.com/Tony-Magabush28
 - LinkedIn: www.linkedin.com/in/anthony-sergo1 
