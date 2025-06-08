@@ -77,7 +77,7 @@ Libraries:
 ## 🚀 What I Learned
 
 - Explored the data by calculating mean, median, mode, percentiles, and standard deviation.
-- Visualized data distributions using histograms, and scatter plots. 
+- Visualized data distributions using histograms and scatter plots. 
 - Built regression models using linear, polynomial, and multiple regression techniques.
 - Evaluated models using R² score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
 
@@ -95,11 +95,11 @@ Libraries:
 
 ## First 5 Rows of Scaled Features:
        area  bedrooms  bathrooms   stories   parking
-0  1.046726  1.403419   1.421812  1.378217  1.517692
-1  1.757010  1.403419   5.405809  2.532024  2.679409
-2  2.218232  0.047278   1.421812  0.224410  1.517692
-3  1.083624  1.403419   1.421812  0.224410  2.679409
-4  1.046726  1.403419  -0.570187  0.224410  1.517692
+- 0  1.046726  1.403419   1.421812  1.378217  1.517692
+- 1  1.757010  1.403419   5.405809  2.532024  2.679409
+- 2  2.218232  0.047278   1.421812  0.224410  1.517692
+- 3  1.083624  1.403419   1.421812  0.224410  2.679409
+- 4  1.046726  1.403419  -0.570187  0.224410  1.517692
 
 ---
 
@@ -147,6 +147,6 @@ This project is provided for educational purposes and is licensed under the MIT 
 
 ## 🚀 How to Run
 
-- git clone
-- cd
+- git clone https://github.com/Tony-Magabush28/House-Pricing-Analysis
+- cd "C:\Users\LENOVO\OneDrive\Documents\JupyterNotebook"
 
