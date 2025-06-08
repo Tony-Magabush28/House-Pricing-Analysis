@@ -81,3 +81,7 @@ git clone https://github.com/Tony-Magabush28/House-Price-Prediction-and-Analysis
  
 
 
+<<<<<<< HEAD
+=======
+
+>>>>>>> b1dd6a27210b6b11313f1cd44aa8e3b672c5a744
