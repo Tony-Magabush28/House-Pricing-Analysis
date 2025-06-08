@@ -1,5 +1,5 @@
 ## 👤 Author
-Anthony Sergo
+- Anthony Sergo
 
 - GitHub: https://github.com/Tony-Magabush28
 - LinkedIn: www.linkedin.com/in/anthony-sergo1 
@@ -8,75 +8,145 @@ Anthony Sergo
 
 ---
 
-# 🏡 House Price Prediction and Analysis
+## 🏡 House Pricing Dataset Project
 
-This project uses Python to predict house prices using various regression techniques, including linear, polynomial, and multiple regression. It also includes exploratory data analysis (EDA), which involves measures such as the mean, median, mode, percentiles, and standard deviation.
+This project analyzes and models housing prices using a dataset of house features and prices. It performs data exploration, visualization, and builds regression models (linear, polynomial, and multiple) to predict house prices.
 
 ---
 
-## 📊 Tools Used
+## 📊 Features
 
-- Python
-- Jupyter Notebook
-- Pandas
-- Numpy
-- Matplotlib
+✅ Data Exploration
+
+- Mean, median, mode, standard deviation, and percentiles of house prices
+- Histogram of price distribution
+- Missing value checks
+
+✅ Regression Models
+
+- Linear Regression: Predicts price based on area
+- Polynomial Regression (Degree 3): Captures non-linear relationships
+- Multiple Regression: Incorporates multiple features (area, bedrooms, bathrooms,      stories, parking)
+
+✅ Evaluation Metrics
+
+- R² score
+- Mean Absolute Error (MAE)
+- Root Mean Squared Error (RMSE)
+- Residual plots
+
+✅ Feature Scaling
+
+- Standardization using StandardScaler()
+
+---
+
+## 📁 Dataset
+The dataset (Housing.csv) contains features such as:
+
+- price: House price (target variable)
+- area: House area in square feet
+- bedrooms: Number of bedrooms
+- bathrooms: Number of bathrooms
+- stories: Number of floors
+- parking: Parking space
+
+---
+
+## 🛠️ Requirements
+Python 3
+
+Libraries:
+
+- numpy
+- pandas
+- matplotlib
 - scikit-learn
-  
----
-
-## 📂 Project Files
-
-- `analysis.ipynb`: The main Jupyter Notebook with code and analysis.
-- `images/*.png`: Sample plot.
-- `requirements.txt`: (Optional) List of dependencies.
 
 ---
 
-## 🖼️ Sample Visualization
-Here are some sample visualizations of house prices:
+## 📈 Visualizations
 
-![House Price Distribution](images/hpd.png)  
+![House Price Distribution](images/pd.png)  
 ![Polynomial Regression](images/pr.png)  
 ![Simple Linear Regression](images/lr.png)
+![Residual plot](images/rp.png)
 
 ---
 
 ## 🚀 What I Learned
+
 - Explored the data by calculating mean, median, mode, percentiles, and standard deviation.
-- Visualized data distributions using histograms, box plots, and scatter plots. 
+- Visualized data distributions using histograms, and scatter plots. 
 - Built regression models using linear, polynomial, and multiple regression techniques.
 - Evaluated models using R² score, Mean Absolute Error (MAE), and Root Mean Squared Error (RMSE).
 
 ---
 
 ## 📈 Results
-                                  📊 Model Performance Summary
-| **Model**             | **R² Score** | **MAE (Mean Absolute Error)** | **RMSE (Root Mean Squared Error)** |
-| --------------------- | -----------: | ----------------------------: | ---------------------------------: |
-| Simple Linear         |         0.27 |                     1,474,748 |                          1,917,104 |
-| Polynomial (Degree 2) |         0.30 |                     1,435,043 |                          1,887,327 |
-| Multiple Linear       |         0.65 |                       970,043 |                          1,324,507 |
+
+- R² Score (Polynomial Regression, Degree 3): 0.325
+- R² Score (Multiple Regression on Training Set): 0.562
+- R² Score (Multiple Regression on Test Set): 0.546
+- MAE (Test Set): 1127483.35
+- RMSE (Test Set): 1514173.55
 
 ---
 
-## 📝 Price Statistics
+## First 5 Rows of Scaled Features:
+       area  bedrooms  bathrooms   stories   parking
+0  1.046726  1.403419   1.421812  1.378217  1.517692
+1  1.757010  1.403419   5.405809  2.532024  2.679409
+2  2.218232  0.047278   1.421812  0.224410  1.517692
+3  1.083624  1.403419   1.421812  0.224410  2.679409
+4  1.046726  1.403419  -0.570187  0.224410  1.517692
 
-- Mean Price: 4,766,729.25
-- Median Price: 4,340,000.00
-- Mode Price: 3,500,000.00
-- Standard Deviation: 1,870,439.62
+---
+
+## Means after scaling:
+area        -0.000000000000000156
+bedrooms    -0.000000000000000183
+bathrooms   -0.000000000000000026
+stories     -0.000000000000000130
+parking      0.000000000000000000
+
+---
+
+## Standard deviations after scaling:
+area         1.000919
+bedrooms     1.000919
+bathrooms    1.000919
+stories      1.000919
+parking      1.000919
+
+---
+
+## 📝 Price Statistics:
+
+- Mean price: 4766729.25
+- Median price: 4340000.00
+- Mode price: 3500000
+- Standard Deviation of price: 1870439.62
+
+---
 
 ## 📝 Price Percentiles:
+- 25th Percentile: 3430000.00
+- 50th Percentile (Median): 4340000.00
+- 75th Percentile: 5740000.00
+- 90th Percentile: 7350000.00
 
-- 25th Percentile: 3,430,000.00
-- 50th Percentile: 4,340,000.00
-- 75th Percentile: 5,740,000.00
 
 ---
 
-## 🔧 How to Run
+## 📃 License
 
-- git clone https://github.com/Tony-Magabush28/House-Price-Prediction-and-Analysis
+This project is provided for educational purposes and is licensed under the MIT License.
 
-- cd "C:\Users\LENOVO\OneDrive\Documents\JupyterNotebook"
+---
+
+## 🚀 How to Run
+
+- git clone
+- cd
+
